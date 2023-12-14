@@ -22,4 +22,11 @@ public class Seat {
     public boolean isReserved() {
         return this.isReserved;
     }
+
+    public int getRow() {
+        return this.row;
+    }
+    public  int getNumber(){
+        return this.number;
+    }
 }
