@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>CinemaApp</artifactId>
+    <artifactId>CinemaAPP</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>CinemaApp</name>
 
@@ -50,6 +50,11 @@
                     <artifactId>*</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.30</version>
         </dependency>
         <dependency>
             <groupId>net.synedra</groupId>
